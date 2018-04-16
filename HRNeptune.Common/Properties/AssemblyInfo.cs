@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Omnia.HRNeptune")]
+[assembly: AssemblyTitle("HRNeptune.Common")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Omnia.HRNeptune")]
+[assembly: AssemblyProduct("HRNeptune.Common")]
 [assembly: AssemblyCopyright("Copyright ©  2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("ef4da2ef-b6ba-44af-977b-956cb1cecca4")]
+[assembly: Guid("8ca4d848-6761-4327-b55f-5cff1706fa28")]
 
 // Version information for an assembly consists of the following four values:
 //

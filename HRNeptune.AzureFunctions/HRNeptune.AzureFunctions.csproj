@@ -1,0 +1,39 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net46</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Sdk.Functions" Version="1.0.13" />
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+    <PackageReference Include="Omnia.Core.Configuration" Version="1.0.0.21" />
+    <PackageReference Include="Omnia.Core.Controller" Version="1.0.0.21" />
+    <PackageReference Include="Omnia.Core.File" Version="1.0.0.21" />
+    <PackageReference Include="Omnia.Core.Logging" Version="1.0.0.21" />
+    <PackageReference Include="Omnia.Core.Notification" Version="1.0.0.21" />
+    <PackageReference Include="Omnia.Core.WebServices" Version="1.0.0.21" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Azure.WebJobs">
+      <HintPath>Microsoft.Azure.WebJobs</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Azure.WebJobs.Host">
+      <HintPath>Microsoft.Azure.WebJobs.Host</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="nVisionIT.MIT.Common.Logging">
+      <HintPath>nVisionIT.MIT.Common.Logging</HintPath>
+    </Reference>
+    <Reference Include="Omnia.Core.Logging">
+      <HintPath>Omnia.Core.Logging</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="host.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="local.settings.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToPublishDirectory>Never</CopyToPublishDirectory>
+    </None>
+  </ItemGroup>
+</Project>
